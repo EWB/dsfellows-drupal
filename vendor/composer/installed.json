@@ -2049,6 +2049,67 @@
         "description": "Composer Plugin for updating the Drupal scaffold files when using drupal/core"
     },
     {
+        "name": "drupal/animate_any",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/animate_any",
+            "reference": "8.x-1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/animate_any-8.x-1.1.zip",
+            "reference": "8.x-1.1",
+            "shasum": "09106a2a0c2454bcf1f246732c07523fffca9f4b"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.1",
+                "datestamp": "1495534683",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "ajay_reddy",
+                "homepage": "https://www.drupal.org/user/3261994"
+            },
+            {
+                "name": "anurag.s",
+                "homepage": "https://www.drupal.org/user/2897825"
+            },
+            {
+                "name": "virajrajankar",
+                "homepage": "https://www.drupal.org/user/3164807"
+            },
+            {
+                "name": "yash_khandelwal",
+                "homepage": "https://www.drupal.org/user/3449571"
+            }
+        ],
+        "description": "Integrates CSS animate.css to apply animation to your site.",
+        "homepage": "https://www.drupal.org/project/animate_any",
+        "support": {
+            "source": "http://cgit.drupalcode.org/animate_any"
+        }
+    },
+    {
         "name": "drupal/asset_injector",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",
