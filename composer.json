@@ -23,6 +23,7 @@
         "drupal/asset_injector": "^2.2",
         "drupal/block_class": "^1.0",
         "drupal/console": "^1.0.2",
+        "drupal/contact_block": "^1.4",
         "drupal/core": "~8.6.0",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
